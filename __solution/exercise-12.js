@@ -37,6 +37,12 @@ const finalGrade = getLetterGrade(
 );
 console.log(finalGrade);
 
+
+// this doesn't work but i need to go to bed to learn tomorrow!!
+
+
+
+
 // In this solution, I created 2 distinct functions that each do ONE thing.
 // Most of you will have come up with other solutions. They are equally valid.
 // We will discuss this tomorrow. :)
