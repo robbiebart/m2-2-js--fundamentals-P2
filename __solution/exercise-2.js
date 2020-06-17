@@ -16,6 +16,6 @@ function max(num1, num2) {
 }
 
 // Call the function
-max(12, 43);
+max(50, 55);
 
 // Call it a few more times with other numbers.
