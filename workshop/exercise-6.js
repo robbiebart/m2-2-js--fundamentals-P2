@@ -6,8 +6,14 @@
 // Q6
 // Write a function that accepts a list of numbers and returns a new list with
 // all of the even numbers removed.
+// const result = words.filter(word => word.length > 6);
+// let newArray = arr.filter(callback(element[, index, [array]])[, thisArg])
 function removeEvens(lst) {
-  // lst is an array of strings
+  let onlyOdds = lst.filter(function(number) {
+    return number % 2 !== 0;
+  });
+
+  return onlyOdds;
 }
 // -------------------------------------------------------------------------
 console.log('Q4 removeEvens()', removeEvens([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
