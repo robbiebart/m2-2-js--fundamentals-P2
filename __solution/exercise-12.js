@@ -18,12 +18,12 @@ function calculateAverage(grades) {
 }
 
 function getLetterGrade(grade) {
-  let letterGrade = 'A';
+  let letterGrade = "A";
 
-  if (grade < 90) letterGrade = 'B';
-  if (grade < 80) letterGrade = 'C';
-  if (grade < 70) letterGrade = 'D';
-  if (grade < 60) letterGrade = 'F';
+  if (grade < 90) letterGrade = "B";
+  if (grade < 80) letterGrade = "C";
+  if (grade < 70) letterGrade = "D";
+  if (grade < 60) letterGrade = "F";
 
   return letterGrade;
 }
@@ -37,11 +37,7 @@ const finalGrade = getLetterGrade(
 );
 console.log(finalGrade);
 
-
 // this doesn't work but i need to go to bed to learn tomorrow!!
-
-
-
 
 // In this solution, I created 2 distinct functions that each do ONE thing.
 // Most of you will have come up with other solutions. They are equally valid.
